@@ -5,37 +5,3 @@ on t.visit_id=v.visit_id
 where t.transaction_id is null
 group by v.customer_id
 having count(v.visit_id)>0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
